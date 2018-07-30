@@ -197,7 +197,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)), url(img/photo_of_me.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     height: 100vh;
 }
 
@@ -393,6 +393,8 @@ header {
     transform: scale(1.03);
 }
 
+
+
 /*-------------------------------------------------------*/
 /*ACCOMPLISHMENTS*/
 /*-------------------------------------------------------*/
@@ -401,7 +403,14 @@ header {
 }
 
 .accomplishemts-step {
+    display: inline-block;
     margin-bottom: 50px;
+}
+
+.accomplishemts-step p {
+    display: inline-block;
+    width: 80%;
+    
 }
 
 .accomplishemts-step:last-of-type {
